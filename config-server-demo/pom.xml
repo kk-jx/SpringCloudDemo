@@ -4,30 +4,24 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.kk.springcloud</groupId>
-	<artifactId>eureka-server-center</artifactId>
+	<artifactId>config-server-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>eureka-server-center</name>
-	<description>Eureka server project for Spring cloud</description>
+	<name>config-server-demo</name>
+	<description>Config server project for Spring cloud</description>
 
 	<parent>
 		<groupId>com.kk</groupId>
 		<artifactId>spring-cloud-demo</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
-		<spring-cloud.version>Dalston.SR4</spring-cloud.version>
-	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-eureka-server</artifactId>
+			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
 
 		<dependency>
