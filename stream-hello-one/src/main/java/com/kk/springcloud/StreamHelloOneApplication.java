@@ -1,12 +1,12 @@
-package cn.regent.springcloud;
+package com.kk.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConfigClientDemoApplication {
+public class StreamHelloOneApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConfigClientDemoApplication.class, args);
+		SpringApplication.run(StreamHelloOneApplication.class, args);
 	}
 }

@@ -1,4 +1,4 @@
-package cn.regent.springcloud.controller;
+package cn.kk.springcloud.controller.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
